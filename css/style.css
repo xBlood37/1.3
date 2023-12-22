@@ -291,7 +291,9 @@ html {
 .chat,
 .profile,
 .repair,
-.checklist {
+.checklist,
+.search,
+.close {
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -318,6 +320,14 @@ html {
 
 .checklist {
   background-image: url(../img/checkstatus.svg);
+}
+
+.search {
+  background-image: url(../img/search.svg);
+}
+
+.close {
+  background-image: url(../img/close.svg);
 }
 /*  */
 /*  */
