@@ -55,39 +55,15 @@ html {
   padding: 0;
 }
 
-.logo {
-  display: inline-block;
-  width: 98px;
-  height: 52px;
-  background-image: url(../img/Group.svg);
-}
-
-.header__item:nth-child(2) {
-  display: none;
-  content: ' ';
-  width: 2px;
-  height: 32px;
-  background-color: #a9a9a987;
-  border-radius: 1px;
-}
-
-.header__item:nth-child(4) {
-  display: inline-block;
-  content: ' ';
-  width: 2px;
-  height: 32px;
-  background-color: #a9a9a987;
-  border-radius: 1px;
-}
-
+.header__item:nth-child(2),
 .header__item:nth-child(5),
 .header__item:nth-child(6),
-.header__item:nth-child(7) {
+.header__item:nth-child(7),
+.header__item:nth-child(8) {
   display: none;
 }
 
-.header__item:nth-child(8) {
-  display: none;
+.header__item--divider {
   content: ' ';
   width: 2px;
   height: 32px;
@@ -95,7 +71,7 @@ html {
   border-radius: 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 515px) {
   .header__item:nth-child(2) {
     display: inline-block;
   }
@@ -145,14 +121,6 @@ html {
   list-style-type: none;
   margin: 0;
   padding: 16px 30px 16px 16px;
-}
-
-.title__item:nth-child(1)::before {
-  content: 'Оставить заявку';
-}
-
-.title__item:nth-child(2)::before {
-  content: 'Статус ремонта';
 }
 
 .title__item {
