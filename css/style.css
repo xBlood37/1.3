@@ -71,13 +71,13 @@ html {
   border-radius: 1px;
 }
 
+.header__item:nth-child(3) {
+  margin-right: auto;
+}
+
 @media (min-width: 515px) {
   .header__item:nth-child(2) {
     display: inline-block;
-  }
-
-  .header__item:nth-child(3) {
-    margin-right: auto;
   }
 
   .header__item:nth-child(4) {
