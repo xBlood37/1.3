@@ -63,7 +63,8 @@ html {
   display: none;
 }
 
-.header__item--divider {
+.header__item--divider::before {
+  display: inline-block;
   content: ' ';
   width: 2px;
   height: 32px;
@@ -123,10 +124,19 @@ html {
   padding: 16px 30px 16px 16px;
 }
 
-.title__item {
+.notify {
   display: flex;
   align-items: center;
   gap: 8px;
+  background-color: rgba(14, 24, 80, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.notify:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .main-title {
